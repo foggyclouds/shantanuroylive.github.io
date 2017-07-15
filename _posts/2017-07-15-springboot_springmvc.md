@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Configure Spring Boot Project for Spring MVC"
+date:   2017-07-15 10:50:16 -0700
+categories: spring-boot spring-mvc
+---
+
 # Configure Spring Boot Project for Spring MVC
 
 This is fully annotation driven spring web mvc configuration

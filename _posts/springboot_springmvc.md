@@ -8,7 +8,22 @@ Create Maven Spring Initializr project seleting web and rest from the website
 -   spring-boot-starter-data-rest
 
 ## pom.xml
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [Configure Spring Boot Project for Spring MVC](#configure-spring-boot-project-for-spring-mvc)
+	- [pom.xml](#pomxml)
+- [application.properties](#applicationproperties)
+- [Spring Boot Main Application](#spring-boot-main-application)
+- [Controller class](#controller-class)
+- [log4j.properties](#log4jproperties)
+- [log4j.rootLogger=OFF](#log4jrootloggeroff)
+- [Direct log messages to a log file](#direct-log-messages-to-a-log-file)
+- [Direct log messages to stdout](#direct-log-messages-to-stdout)
+- [Root logger option](#root-logger-option)
+- [Log everything. Good for troubleshooting](#log-everything-good-for-troubleshooting)
+- [Log all JDBC parameters](#log-all-jdbc-parameters)
+
+<!-- /TOC -->
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
